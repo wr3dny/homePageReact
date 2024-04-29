@@ -7,3 +7,13 @@
     color: yellowgreen;
     font-weight: bold;
 }
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+img{
+    width: 50vh;
+    height: auto;
+}

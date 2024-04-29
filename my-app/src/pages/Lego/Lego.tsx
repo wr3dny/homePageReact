@@ -4,12 +4,7 @@ import { LEGO } from '../../consts/lego';
 
 export const Lego = () => {
 
-    const handleOOP = () => {
-        if(LEGO.map(lego => lego.oop === true)){
-            return "oop"
-        }
-        return "notOop"
-    }
+    
 
     return (
         <div className={styles.div}>
