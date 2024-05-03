@@ -4,14 +4,15 @@ import { LEGO } from '../../consts/lego';
 
 export const Lego = () => {
 
-    
+    const sortedLEGO = [...LEGO].sort((a, b) => a.minPrice - b.minPrice);
 
     return (
-        <div className={styles.div}>
+        <div className={styles.header}>
             <h3>WISHLIST</h3>
+            <h4>cenami rosnąco</h4>
             <hr/>
             <div className={styles.gridContainer}>
-                {LEGO.map((lego) => (
+                {sortedLEGO.map((lego) => (
                     <div className={styles.gridItem}>
                         <a className={styles.a}
                             href={lego.url}

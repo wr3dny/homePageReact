@@ -1,19 +1,26 @@
-.div{
-    background-color: black;
-    color: white;
+h3, h4{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
 }
-
+/* 
 .div:hover{
     color: yellowgreen;
     font-weight: bold;
-}
+} */
 
 .gridContainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
 }
 
 img{
     width: 50vh;
     height: auto;
+}
+
+img:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
 }
