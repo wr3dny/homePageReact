@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import i18n from './i18n';
 import { useTranslation } from 'react-i18next';
 import { PATHS } from './consts/paths';
+import { Navbar } from './components/Navbar/Navbar';
 
 export const App = () => {
   const { t } = useTranslation();
@@ -14,15 +15,7 @@ export const App = () => {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            {PATHS.map((link) => (
-              <li key={link.key}>
-                <Link to={link.path}>{t(link.key)}</Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <Navbar />
 
         <Routes>
           {PATHS.map(({ key, path, Component }) => (

@@ -161,6 +161,13 @@ export const LEGO = [
         owned: false,
         minPrice: 1499,
     },
+    {
+        name: 'Architecture Notre-Dame w Paryżu',
+        url: 'https://zklockow.pl/lego-21061-architecture-notre-dame-w-paryzu',
+        img: 'https://zklockow.pl/img/960/lego-architecture-21061-notre-dame-w-paryzu-9.jpg',
+        owned: false,
+        minPrice: 1099,
+    },
     // {
     //     name: ,
     //     url:,
