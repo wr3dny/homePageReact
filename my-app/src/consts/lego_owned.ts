@@ -123,10 +123,26 @@ export const LEGO = [
     {
         name: 'Road Rebel',
         sn: '6644',
-        url: 'https://zklockow.pl/lego-43230-disney-kamera-walta-disneya',
-        img: 'https://zklockow.pl/img/640/lego-disney-43230-kamera-walta-disneya-1.jpg',
+        url: 'https://www.toysperiod.com/lego-set-reference/town/classic-town/traffic/lego-6644-road-rebel/',
+        img: 'https://www.toysperiod.com/img/cache/17/800x600/d4e4o5g414p4n5x5m444v2v2a4t2q2w214i4w5d41433v234t20314x2.jpg',
         owned: true,   
         year: 1990,   
+    },
+    {
+        name: 'Rescue Helicopter',
+        sn: '6482',
+        url: 'https://www.toysperiod.com/lego-set-reference/town/classic-town/hospital/lego-6482-rescue-helicopter/',
+        img: 'https://www.toysperiod.com/img/cache/15/800x600/d4e4o5g414p4n5x5m444v2t2e4r2q2w214i4w5d41433v234t20314x2.jpg',
+        owned: true,   
+        year: 1889,   
+    },
+    {
+        name: 'Light and Sound Construction Crew',
+        sn: '6481',
+        url: 'https://www.toysperiod.com/lego-set-reference/town/classic-town/construction/lego-6481-light-and-sound-construction-crew/',
+        img: 'https://www.toysperiod.com/img/cache/ae/800x600/d4e4o5g414p4n5x5m444v2t2e4q2q2w214i4w5d41433v234t20314x2.jpg',
+        owned: true,   
+        year: 1889,   
     },
 ]
 

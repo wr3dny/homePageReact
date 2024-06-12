@@ -1,0 +1,10 @@
+.container {
+    background-color: aqua;
+    border: 1px solid black;
+    color: blueviolet;
+}
+
+.container .weekend {
+    color: yellow;
+    background-color: blue;
+}

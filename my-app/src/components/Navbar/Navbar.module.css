@@ -2,8 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: black;
+    background-color: red;
     list-style: none;
+}
+
+.main .weekend {
+    background-color: blue;
 }
 
 .link{
