@@ -6,9 +6,9 @@ import { Home } from '../pages/Home/Home';
 
 
 export const PATHS = [
-  { path: '/lego', key: 'Lego', Component: Lego },
-  { path: '/books', key: 'Books', Component: Books },
-  { path: '/gallery', key: 'Gallery', Component: Gallery },
-  { path: '/about', key: 'About', Component: About },
-  { path: '/', key: 'Home', Component: Home }
+  { path: '/', key: 'Home', Component: Home , available: true },
+  { path: '/lego', key: 'Lego', Component: Lego, available: true },
+  { path: '/books', key: 'Books', Component: Books, available: false },
+  { path: '/gallery', key: 'Gallery', Component: Gallery , available: false},
+  { path: '/about', key: 'About', Component: About , available: false }
 ];

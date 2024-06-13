@@ -13,10 +13,12 @@ export const Navbar = () => {
     const isWeekend = currentDay === 0 || currentDay === 6
     const weekendOrNot = isWeekend ? false : true
 
+    const availablePaths = PATHS.filter(path => path.available)
+
     return (
         <nav>
           <ul className={classNames(styles.main, {[styles.weekend]: weekendOrNot})}>
-            {PATHS.map((link) => (
+            {availablePaths.map((link) => (
               <li key={link.key}  >
                 <Link to={link.path} className={styles.link}>{t(link.key)}</Link>
               </li>
