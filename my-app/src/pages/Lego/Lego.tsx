@@ -3,6 +3,17 @@ import { LEGO } from '../../consts/lego';
 
 
 export const Lego = () => {
+
+    const priceLvl = {
+        200: 200,
+        400: 400,
+        600: 600,
+        800: 800, 
+        1000:1000,
+        1500: 1500,
+        2000: 2000,
+    }
+
 const price200 = 200
 const price300 = 300
 const price700 = 700
